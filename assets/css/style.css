@@ -37,6 +37,11 @@ ul li a:hover{
     color: aqua;
     cursor: pointer;
 }
+i{
+    font-size: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
 .main{
     margin-top: 111px;
     display: flex;
@@ -68,9 +73,13 @@ ul li a:hover{
     font-size: 22px;
     margin-left: 30px;
 }
+.main span{
+    font-size: 100px;
+}
 .mainText{
     margin-top: 54px;
 }
+
 .head{
     text-align: center;
     padding: 88px;
@@ -124,7 +133,7 @@ ul li a:hover{
     margin-top: 22px;
     text-align: center;
 }
-.serviceCard i{
+.serviceCard span{
     font-size: 83px;
 }
 .serviceCard p{
@@ -139,11 +148,15 @@ ul li a:hover{
     height: 32px;
     border: none;
     background-color: rgb(161, 25, 48);
+    cursor: pointer;
 }
 .work {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+.work span{
+    color: rgb(243, 160, 5);
 }
 .workcard {
     text-align: center;
@@ -169,10 +182,14 @@ ul li a:hover{
     text-align: center;
     background-color: gray;
 }
+
+
+
 .contact input{
     width: 90%;
     padding: 11px;
     height: 22px;
+    font-size: 22px;
 }
 .contact textarea{
     width: 96%;
@@ -189,15 +206,18 @@ ul li a:hover{
     border: none;
     font-size: 19px;
     cursor: pointer;
+    transition: 0,5s;
 }
 .icons{
     text-align: center;
-    font-size: 42px;
+    font-size: 32px;
     margin-top: 42px;
     cursor: pointer;
 }
 .footer{
-    padding: 22px;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
 }
 .Text{
     display: flex;
@@ -207,4 +227,5 @@ ul li a:hover{
 .Text p{
     text-align: center;
     font-size: 22px;
+    cursor: pointer;
 }
